@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
 	}
 	int aux; 
 	for (i=1; i<argc-1; i++){ //recorrer la lista
-		for (j=0; j<argc-1-i; j++){ //cambiar de posición
+		for (j=0; j<argc-1-i; j++){ //cambiar de posiciónz
 			if(numeros[j]>numeros[j+1]){ //si el primer num es mayor que el segundo num
 				aux =numeros[j]; //se gusrda en auxiliar 
 				numeros[j]= numeros[j+1]; //El numero siguiente se convierte en el anterior
